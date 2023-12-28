@@ -1,0 +1,160 @@
+* {
+  font-family: 'Epilogue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*start of nav bar*/
+li, a, button {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+}
+.nav-links, li{
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: #F3F1E6;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-links, li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links, li, a {
+  transition: all 0.4 ease 0s;
+}
+.nav-links, li, a:hover {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cta {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #94897B;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+.cta:hover {
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  box-shadow: 5px 5px 3px rgb(157, 157, 157);
+}
+/*content*/
+#mainimg {
+  width: auto;
+  object-fit: contain;
+  flex: 2;
+  float: right;
+  margin-right: 8%;
+}
+span {
+  display: block;
+}
+.content {
+  display: flex;
+  align-items: left ;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 16%;
+  margin-left: 20%;
+  text-align: left;
+}
+h1 {
+  font-size: 40px;
+  color: #625a51;
+  font-weight: 700;
+}
+#slogan {
+  font-size: 23px;
+  line-height: 1.5;
+  color: #a19687;
+  width: 95%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 0 auto;
+}
+.abt {
+  width: 30px;
+}
+.aboutbtn {
+  color: rgb(255, 255, 255);
+  background-color: #94897B;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  transition: all 0.3 ease 0s;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+.aboutbtn:hover {
+  color: black;
+  background: transparent;
+}
+
+  .content {
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  #mainimg {
+    margin-right: 8%;
+    width: 50%;
+  }
+.contact-col {
+  margin-top: 15px;
+  padding: 20px;
+  color: #625a51;
+}
+.contact div i {
+  font-size: 25px;
+  color: #625a51;
+  margin: 20px;
+}
+.contact div h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: black;
+}
+.about-us {
+  margin-top: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30%;
+}
+/*sources page*/
+.sources li {
+  margin-bottom: 3%;
+}
+.sources {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30%;
+}
+.sources h1 {
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 0.7em;
+}
+#bounties{
+  display: grid;
+  display: block;
+}

@@ -1,0 +1,240 @@
+
+@font-face {
+  font-family: lemon;
+  src: url(Lemon_Days.otf);
+}
+
+.welcome{
+  color:darkgreen;
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("nature.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.choices{
+    /* position: absolute; */
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      
+    
+}
+.optionl{
+  height: 350px;
+  width: 300px;
+  background-color: #f5f5dc;
+  display: flex;
+
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#content{
+  width: 300px;
+  text-align: center;
+
+}
+.optionhover{
+  flex-grow: 10%;
+}
+.haha{
+height:500px;
+background-color:#70E881;
+font-family: lemon;
+text-align: center;
+}
+#cataloghead{
+    font-family: lemon;
+    font-size:38px;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("nature.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.button {
+  text-decoration: none;
+  color: #2F3930;
+  padding: 5px 9px 5px 9px;
+  border: 1px solid #282F29;
+  background: #A8F3AF;
+}
+
+.title {
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 40px;
+  color: #227C2F;
+}
+body {
+  font-family: lemon;
+  margin: 0px;
+  background-color:#fffdd0;
+}
+h2{
+  margin: inherit;
+}
+.nav {
+  margin: none;
+  padding: none;
+  border: none;
+  width: 100%;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe5b4;
+}
+.logoish{
+  float: right;
+  padding-right: 8px;
+  font-family: lemon;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h3{
+  margin: 0;
+  padding: 0;
+  
+}
+li a:hover:not(.current) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.current {
+  background-color: #A47360;
+}
+
+#username {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+
+#pass {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+.textfield{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+
+table {
+  background-color: #f5f5dc;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sub {
+  	background: #A47360;
+  	padding: 10px 30px;
+  	margin-left: auto;
+    margin-right: auto;
+  	font-family: lemon;
+  	font-size: inherit;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.haha2 {
+  height:500px;
+  background-color:#fffdd0;
+  font-family: lemon;
+}
+
+.center {
+  text-align: center;
+}
+/*for signup username*/
+#usernamemake {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+
+/*for signup password*/
+#passmake {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+/*for signup confirm password*/
+#confirmpass {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+
+.center2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 19%;
+  height: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contact {
+  width: 1000px;
+  height: 700px;
+}
+/*css for sizes*/
+.size {
+  font-size: 25px;
+  text-align: center;
+}
